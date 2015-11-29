@@ -1,0 +1,12 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, ‘8.0’
+
+target 'Billfold' do
+
+pod 'AFNetworking','~> 2.5.4'
+pod 'TPKeyboardAvoiding', '~> 1.2'
+pod 'SVProgressHUD', :head
+pod 'CardIO'
+pod 'Stripe'
+end
+

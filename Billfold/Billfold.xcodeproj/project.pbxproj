@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4635BE561C0A097A002B71A8 /* RaisedInvoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4635BE551C0A097A002B71A8 /* RaisedInvoiceViewController.m */; };
+		4635BE591C0A34E4002B71A8 /* AddBankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4635BE581C0A34E4002B71A8 /* AddBankViewController.m */; };
+		4635BE5C1C0A5FC1002B71A8 /* InvoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4635BE5B1C0A5FC1002B71A8 /* InvoiceViewController.m */; };
+		4635BE5F1C0A93C6002B71A8 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4635BE5E1C0A93C6002B71A8 /* HistoryViewController.m */; };
+		4635BE671C0A99B6002B71A8 /* HistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4635BE651C0A99B6002B71A8 /* HistoryTableViewCell.m */; };
+		4635BE681C0A99B6002B71A8 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4635BE661C0A99B6002B71A8 /* HistoryTableViewCell.xib */; };
+		464EFF841C0998D9003703EC /* BFHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 464EFF831C0998D9003703EC /* BFHTTPClient.m */; };
+		464EFF871C09AE33003703EC /* CodeVerificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 464EFF861C09AE33003703EC /* CodeVerificationViewController.m */; };
+		465338221C097F2C001DB9D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 465338211C097F2C001DB9D3 /* main.m */; };
+		465338251C097F2C001DB9D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 465338241C097F2C001DB9D3 /* AppDelegate.m */; };
+		465338281C097F2C001DB9D3 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465338271C097F2C001DB9D3 /* FirstViewController.m */; };
+		4653382B1C097F2C001DB9D3 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4653382A1C097F2C001DB9D3 /* SecondViewController.m */; };
+		4653382E1C097F2C001DB9D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4653382C1C097F2C001DB9D3 /* Main.storyboard */; };
+		465338301C097F2C001DB9D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4653382F1C097F2C001DB9D3 /* Assets.xcassets */; };
+		465338331C097F2C001DB9D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 465338311C097F2C001DB9D3 /* LaunchScreen.storyboard */; };
+		4653383E1C097F2C001DB9D3 /* BillfoldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4653383D1C097F2C001DB9D3 /* BillfoldTests.m */; };
+		465338491C097F2C001DB9D3 /* BillfoldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 465338481C097F2C001DB9D3 /* BillfoldUITests.m */; };
+		4653385A1C098570001DB9D3 /* RegistrationFirstStepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 465338591C098570001DB9D3 /* RegistrationFirstStepViewController.m */; };
+		4698B3D51C09F03100AA0EF9 /* PayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698B3D41C09F03100AA0EF9 /* PayViewController.m */; };
+		4698B3D81C09F03D00AA0EF9 /* ReceiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4698B3D71C09F03D00AA0EF9 /* ReceiveViewController.m */; };
+		46F070231C09CFA300BE9373 /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F070221C09CFA300BE9373 /* UserDetailsViewController.m */; };
+		7913F277FC52E9ED1B28FF98 /* libPods-Billfold.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00960A614ED12177BCB23617 /* libPods-Billfold.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4653383A1C097F2C001DB9D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465338151C097F2C001DB9D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4653381C1C097F2C001DB9D3;
+			remoteInfo = Billfold;
+		};
+		465338451C097F2C001DB9D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 465338151C097F2C001DB9D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4653381C1C097F2C001DB9D3;
+			remoteInfo = Billfold;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00960A614ED12177BCB23617 /* libPods-Billfold.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Billfold.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1583E716D7389AC527092A4B /* Pods-Billfold.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billfold.release.xcconfig"; path = "Pods/Target Support Files/Pods-Billfold/Pods-Billfold.release.xcconfig"; sourceTree = "<group>"; };
+		4635BE541C0A097A002B71A8 /* RaisedInvoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaisedInvoiceViewController.h; sourceTree = "<group>"; };
+		4635BE551C0A097A002B71A8 /* RaisedInvoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaisedInvoiceViewController.m; sourceTree = "<group>"; };
+		4635BE571C0A34E4002B71A8 /* AddBankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBankViewController.h; sourceTree = "<group>"; };
+		4635BE581C0A34E4002B71A8 /* AddBankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBankViewController.m; sourceTree = "<group>"; };
+		4635BE5A1C0A5FC1002B71A8 /* InvoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvoiceViewController.h; sourceTree = "<group>"; };
+		4635BE5B1C0A5FC1002B71A8 /* InvoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvoiceViewController.m; sourceTree = "<group>"; };
+		4635BE5D1C0A93C6002B71A8 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		4635BE5E1C0A93C6002B71A8 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		4635BE641C0A99B6002B71A8 /* HistoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewCell.h; sourceTree = "<group>"; };
+		4635BE651C0A99B6002B71A8 /* HistoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewCell.m; sourceTree = "<group>"; };
+		4635BE661C0A99B6002B71A8 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
+		464EFF821C0998D9003703EC /* BFHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFHTTPClient.h; sourceTree = "<group>"; };
+		464EFF831C0998D9003703EC /* BFHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFHTTPClient.m; sourceTree = "<group>"; };
+		464EFF851C09AE33003703EC /* CodeVerificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodeVerificationViewController.h; sourceTree = "<group>"; };
+		464EFF861C09AE33003703EC /* CodeVerificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CodeVerificationViewController.m; sourceTree = "<group>"; };
+		4653381D1C097F2C001DB9D3 /* Billfold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Billfold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		465338211C097F2C001DB9D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		465338231C097F2C001DB9D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		465338241C097F2C001DB9D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		465338261C097F2C001DB9D3 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		465338271C097F2C001DB9D3 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		465338291C097F2C001DB9D3 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		4653382A1C097F2C001DB9D3 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		4653382D1C097F2C001DB9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4653382F1C097F2C001DB9D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		465338321C097F2C001DB9D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		465338341C097F2C001DB9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465338391C097F2C001DB9D3 /* BillfoldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillfoldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4653383D1C097F2C001DB9D3 /* BillfoldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillfoldTests.m; sourceTree = "<group>"; };
+		4653383F1C097F2C001DB9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465338441C097F2C001DB9D3 /* BillfoldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BillfoldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		465338481C097F2C001DB9D3 /* BillfoldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BillfoldUITests.m; sourceTree = "<group>"; };
+		4653384A1C097F2C001DB9D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465338581C098570001DB9D3 /* RegistrationFirstStepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationFirstStepViewController.h; sourceTree = "<group>"; };
+		465338591C098570001DB9D3 /* RegistrationFirstStepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationFirstStepViewController.m; sourceTree = "<group>"; };
+		4653385C1C09866D001DB9D3 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		4698B3D31C09F03100AA0EF9 /* PayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayViewController.h; sourceTree = "<group>"; };
+		4698B3D41C09F03100AA0EF9 /* PayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayViewController.m; sourceTree = "<group>"; };
+		4698B3D61C09F03D00AA0EF9 /* ReceiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiveViewController.h; sourceTree = "<group>"; };
+		4698B3D71C09F03D00AA0EF9 /* ReceiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceiveViewController.m; sourceTree = "<group>"; };
+		46F070211C09CFA300BE9373 /* UserDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		46F070221C09CFA300BE9373 /* UserDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		B50F2D4AE636DADE58B1DBF9 /* Pods-Billfold.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Billfold.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Billfold/Pods-Billfold.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4653381A1C097F2C001DB9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7913F277FC52E9ED1B28FF98 /* libPods-Billfold.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465338361C097F2C001DB9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465338411C097F2C001DB9D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4635BE631C0A9996002B71A8 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				4635BE641C0A99B6002B71A8 /* HistoryTableViewCell.h */,
+				4635BE651C0A99B6002B71A8 /* HistoryTableViewCell.m */,
+				4635BE661C0A99B6002B71A8 /* HistoryTableViewCell.xib */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		464EFF811C0998B0003703EC /* API Calls */ = {
+			isa = PBXGroup;
+			children = (
+				464EFF821C0998D9003703EC /* BFHTTPClient.h */,
+				464EFF831C0998D9003703EC /* BFHTTPClient.m */,
+			);
+			name = "API Calls";
+			sourceTree = "<group>";
+		};
+		465338141C097F2C001DB9D3 = {
+			isa = PBXGroup;
+			children = (
+				4653381F1C097F2C001DB9D3 /* Billfold */,
+				4653383C1C097F2C001DB9D3 /* BillfoldTests */,
+				465338471C097F2C001DB9D3 /* BillfoldUITests */,
+				4653381E1C097F2C001DB9D3 /* Products */,
+				AC2CE8EDFC83BDDFE3AFF821 /* Pods */,
+				B89868AC5C52818887AAE5C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4653381E1C097F2C001DB9D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4653381D1C097F2C001DB9D3 /* Billfold.app */,
+				465338391C097F2C001DB9D3 /* BillfoldTests.xctest */,
+				465338441C097F2C001DB9D3 /* BillfoldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4653381F1C097F2C001DB9D3 /* Billfold */ = {
+			isa = PBXGroup;
+			children = (
+				4635BE631C0A9996002B71A8 /* CustomCell */,
+				464EFF811C0998B0003703EC /* API Calls */,
+				4653385B1C09865A001DB9D3 /* Helper */,
+				465338571C0984E1001DB9D3 /* AppDelegate */,
+				465338561C0984D2001DB9D3 /* ViewController */,
+				4653382C1C097F2C001DB9D3 /* Main.storyboard */,
+				4653382F1C097F2C001DB9D3 /* Assets.xcassets */,
+				465338311C097F2C001DB9D3 /* LaunchScreen.storyboard */,
+				465338341C097F2C001DB9D3 /* Info.plist */,
+				465338201C097F2C001DB9D3 /* Supporting Files */,
+			);
+			path = Billfold;
+			sourceTree = "<group>";
+		};
+		465338201C097F2C001DB9D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				465338211C097F2C001DB9D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4653383C1C097F2C001DB9D3 /* BillfoldTests */ = {
+			isa = PBXGroup;
+			children = (
+				4653383D1C097F2C001DB9D3 /* BillfoldTests.m */,
+				4653383F1C097F2C001DB9D3 /* Info.plist */,
+			);
+			path = BillfoldTests;
+			sourceTree = "<group>";
+		};
+		465338471C097F2C001DB9D3 /* BillfoldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				465338481C097F2C001DB9D3 /* BillfoldUITests.m */,
+				4653384A1C097F2C001DB9D3 /* Info.plist */,
+			);
+			path = BillfoldUITests;
+			sourceTree = "<group>";
+		};
+		465338561C0984D2001DB9D3 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				465338261C097F2C001DB9D3 /* FirstViewController.h */,
+				465338271C097F2C001DB9D3 /* FirstViewController.m */,
+				465338291C097F2C001DB9D3 /* SecondViewController.h */,
+				4653382A1C097F2C001DB9D3 /* SecondViewController.m */,
+				465338581C098570001DB9D3 /* RegistrationFirstStepViewController.h */,
+				465338591C098570001DB9D3 /* RegistrationFirstStepViewController.m */,
+				464EFF851C09AE33003703EC /* CodeVerificationViewController.h */,
+				464EFF861C09AE33003703EC /* CodeVerificationViewController.m */,
+				46F070211C09CFA300BE9373 /* UserDetailsViewController.h */,
+				46F070221C09CFA300BE9373 /* UserDetailsViewController.m */,
+				4698B3D31C09F03100AA0EF9 /* PayViewController.h */,
+				4698B3D41C09F03100AA0EF9 /* PayViewController.m */,
+				4698B3D61C09F03D00AA0EF9 /* ReceiveViewController.h */,
+				4698B3D71C09F03D00AA0EF9 /* ReceiveViewController.m */,
+				4635BE541C0A097A002B71A8 /* RaisedInvoiceViewController.h */,
+				4635BE551C0A097A002B71A8 /* RaisedInvoiceViewController.m */,
+				4635BE571C0A34E4002B71A8 /* AddBankViewController.h */,
+				4635BE581C0A34E4002B71A8 /* AddBankViewController.m */,
+				4635BE5A1C0A5FC1002B71A8 /* InvoiceViewController.h */,
+				4635BE5B1C0A5FC1002B71A8 /* InvoiceViewController.m */,
+				4635BE5D1C0A93C6002B71A8 /* HistoryViewController.h */,
+				4635BE5E1C0A93C6002B71A8 /* HistoryViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		465338571C0984E1001DB9D3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				465338231C097F2C001DB9D3 /* AppDelegate.h */,
+				465338241C097F2C001DB9D3 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		4653385B1C09865A001DB9D3 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4653385C1C09866D001DB9D3 /* Constant.h */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		AC2CE8EDFC83BDDFE3AFF821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B50F2D4AE636DADE58B1DBF9 /* Pods-Billfold.debug.xcconfig */,
+				1583E716D7389AC527092A4B /* Pods-Billfold.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B89868AC5C52818887AAE5C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00960A614ED12177BCB23617 /* libPods-Billfold.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4653381C1C097F2C001DB9D3 /* Billfold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4653384D1C097F2C001DB9D3 /* Build configuration list for PBXNativeTarget "Billfold" */;
+			buildPhases = (
+				B8A5D74456B5B235D152EBB4 /* Check Pods Manifest.lock */,
+				465338191C097F2C001DB9D3 /* Sources */,
+				4653381A1C097F2C001DB9D3 /* Frameworks */,
+				4653381B1C097F2C001DB9D3 /* Resources */,
+				F976EB93FF5E9681FBAD3AE5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Billfold;
+			productName = Billfold;
+			productReference = 4653381D1C097F2C001DB9D3 /* Billfold.app */;
+			productType = "com.apple.product-type.application";
+		};
+		465338381C097F2C001DB9D3 /* BillfoldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465338501C097F2C001DB9D3 /* Build configuration list for PBXNativeTarget "BillfoldTests" */;
+			buildPhases = (
+				465338351C097F2C001DB9D3 /* Sources */,
+				465338361C097F2C001DB9D3 /* Frameworks */,
+				465338371C097F2C001DB9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4653383B1C097F2C001DB9D3 /* PBXTargetDependency */,
+			);
+			name = BillfoldTests;
+			productName = BillfoldTests;
+			productReference = 465338391C097F2C001DB9D3 /* BillfoldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		465338431C097F2C001DB9D3 /* BillfoldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 465338531C097F2C001DB9D3 /* Build configuration list for PBXNativeTarget "BillfoldUITests" */;
+			buildPhases = (
+				465338401C097F2C001DB9D3 /* Sources */,
+				465338411C097F2C001DB9D3 /* Frameworks */,
+				465338421C097F2C001DB9D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				465338461C097F2C001DB9D3 /* PBXTargetDependency */,
+			);
+			name = BillfoldUITests;
+			productName = BillfoldUITests;
+			productReference = 465338441C097F2C001DB9D3 /* BillfoldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		465338151C097F2C001DB9D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = synerzip;
+				TargetAttributes = {
+					4653381C1C097F2C001DB9D3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 67822934AQ;
+					};
+					465338381C097F2C001DB9D3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4653381C1C097F2C001DB9D3;
+					};
+					465338431C097F2C001DB9D3 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 4653381C1C097F2C001DB9D3;
+					};
+				};
+			};
+			buildConfigurationList = 465338181C097F2C001DB9D3 /* Build configuration list for PBXProject "Billfold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 465338141C097F2C001DB9D3;
+			productRefGroup = 4653381E1C097F2C001DB9D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4653381C1C097F2C001DB9D3 /* Billfold */,
+				465338381C097F2C001DB9D3 /* BillfoldTests */,
+				465338431C097F2C001DB9D3 /* BillfoldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4653381B1C097F2C001DB9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465338331C097F2C001DB9D3 /* LaunchScreen.storyboard in Resources */,
+				465338301C097F2C001DB9D3 /* Assets.xcassets in Resources */,
+				4635BE681C0A99B6002B71A8 /* HistoryTableViewCell.xib in Resources */,
+				4653382E1C097F2C001DB9D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465338371C097F2C001DB9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465338421C097F2C001DB9D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8A5D74456B5B235D152EBB4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F976EB93FF5E9681FBAD3AE5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Billfold/Pods-Billfold-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		465338191C097F2C001DB9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4698B3D81C09F03D00AA0EF9 /* ReceiveViewController.m in Sources */,
+				4653382B1C097F2C001DB9D3 /* SecondViewController.m in Sources */,
+				4635BE591C0A34E4002B71A8 /* AddBankViewController.m in Sources */,
+				4698B3D51C09F03100AA0EF9 /* PayViewController.m in Sources */,
+				464EFF871C09AE33003703EC /* CodeVerificationViewController.m in Sources */,
+				4635BE671C0A99B6002B71A8 /* HistoryTableViewCell.m in Sources */,
+				4635BE5F1C0A93C6002B71A8 /* HistoryViewController.m in Sources */,
+				46F070231C09CFA300BE9373 /* UserDetailsViewController.m in Sources */,
+				465338251C097F2C001DB9D3 /* AppDelegate.m in Sources */,
+				464EFF841C0998D9003703EC /* BFHTTPClient.m in Sources */,
+				465338281C097F2C001DB9D3 /* FirstViewController.m in Sources */,
+				465338221C097F2C001DB9D3 /* main.m in Sources */,
+				4635BE561C0A097A002B71A8 /* RaisedInvoiceViewController.m in Sources */,
+				4653385A1C098570001DB9D3 /* RegistrationFirstStepViewController.m in Sources */,
+				4635BE5C1C0A5FC1002B71A8 /* InvoiceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465338351C097F2C001DB9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4653383E1C097F2C001DB9D3 /* BillfoldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		465338401C097F2C001DB9D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				465338491C097F2C001DB9D3 /* BillfoldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4653383B1C097F2C001DB9D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4653381C1C097F2C001DB9D3 /* Billfold */;
+			targetProxy = 4653383A1C097F2C001DB9D3 /* PBXContainerItemProxy */;
+		};
+		465338461C097F2C001DB9D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4653381C1C097F2C001DB9D3 /* Billfold */;
+			targetProxy = 465338451C097F2C001DB9D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4653382C1C097F2C001DB9D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4653382D1C097F2C001DB9D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		465338311C097F2C001DB9D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				465338321C097F2C001DB9D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4653384B1C097F2C001DB9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4653384C1C097F2C001DB9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4653384E1C097F2C001DB9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50F2D4AE636DADE58B1DBF9 /* Pods-Billfold.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Billfold",
+				);
+				INFOPLIST_FILE = Billfold/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.Billfold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4653384F1C097F2C001DB9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1583E716D7389AC527092A4B /* Pods-Billfold.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Billfold",
+				);
+				INFOPLIST_FILE = Billfold/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.Billfold;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		465338511C097F2C001DB9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BillfoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.BillfoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billfold.app/Billfold";
+			};
+			name = Debug;
+		};
+		465338521C097F2C001DB9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BillfoldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.BillfoldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Billfold.app/Billfold";
+			};
+			name = Release;
+		};
+		465338541C097F2C001DB9D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BillfoldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.BillfoldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Billfold;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		465338551C097F2C001DB9D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BillfoldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synerzip.BillfoldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Billfold;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		465338181C097F2C001DB9D3 /* Build configuration list for PBXProject "Billfold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4653384B1C097F2C001DB9D3 /* Debug */,
+				4653384C1C097F2C001DB9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4653384D1C097F2C001DB9D3 /* Build configuration list for PBXNativeTarget "Billfold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4653384E1C097F2C001DB9D3 /* Debug */,
+				4653384F1C097F2C001DB9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465338501C097F2C001DB9D3 /* Build configuration list for PBXNativeTarget "BillfoldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465338511C097F2C001DB9D3 /* Debug */,
+				465338521C097F2C001DB9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		465338531C097F2C001DB9D3 /* Build configuration list for PBXNativeTarget "BillfoldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				465338541C097F2C001DB9D3 /* Debug */,
+				465338551C097F2C001DB9D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 465338151C097F2C001DB9D3 /* Project object */;
+}

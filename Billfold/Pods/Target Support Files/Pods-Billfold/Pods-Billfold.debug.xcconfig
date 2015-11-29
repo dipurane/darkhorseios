@@ -1,0 +1,6 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/CardIO" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/Stripe" "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding"
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/CardIO/CardIO" "$(PODS_ROOT)/CardIO/CardIO" "$(PODS_ROOT)/CardIO/CardIO"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/CardIO" -isystem "${PODS_ROOT}/Headers/Public/SVProgressHUD" -isystem "${PODS_ROOT}/Headers/Public/Stripe" -isystem "${PODS_ROOT}/Headers/Public/TPKeyboardAvoiding"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"CardIO" -l"SVProgressHUD" -l"Stripe" -l"TPKeyboardAvoiding" -l"c++" -l"opencv_core" -l"opencv_imgproc" -framework "AVFoundation" -framework "Accelerate" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "Foundation" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit" -weak_framework "AddressBook" -weak_framework "PassKit"
+PODS_ROOT = ${SRCROOT}/Pods
